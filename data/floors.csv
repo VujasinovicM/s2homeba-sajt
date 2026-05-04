@@ -1,0 +1,14 @@
+project_slug,slug,name,order,floorPlanImage
+naselje-ada,prizemlje,Prizemlje (garaže),0,/images/projekti/naselje-ada/etaze/prizemlje/tlocrt.jpg
+naselje-ada,sprat-1,Sprat 1,1,/images/projekti/naselje-ada/etaze/prizemlje/tlocrt.jpg
+naselje-ada,sprat-2,Sprat 2,2,/images/projekti/naselje-ada/etaze/prizemlje/tlocrt.jpg
+naselje-ada,sprat-3,Sprat 3,3,/images/projekti/naselje-ada/etaze/prizemlje/tlocrt.jpg
+naselje-ada,sprat-4,Sprat 4,4,/images/projekti/naselje-ada/etaze/prizemlje/tlocrt.jpg
+naselje-ada,sprat-5,Sprat 5,5,/images/projekti/naselje-ada/etaze/prizemlje/tlocrt.jpg
+nova-varos,podrum,Podrum (parking),0,/images/projekti/nova-varos/etaze/prizemlje/tlocrt.jpg
+nova-varos,prizemlje,Prizemlje,1,/images/projekti/nova-varos/etaze/prizemlje/tlocrt.jpg
+nova-varos,sprat-1,Sprat 1,2,/images/projekti/nova-varos/etaze/etaza-1/tlocrt.jpg
+nova-varos,sprat-2,Sprat 2,3,/images/projekti/nova-varos/etaze/etaza-1/tlocrt.jpg
+nova-varos,sprat-3,Sprat 3,4,/images/projekti/nova-varos/etaze/etaza-1/tlocrt.jpg
+nova-varos,sprat-4,Sprat 4,5,/images/projekti/nova-varos/etaze/etaza-1/tlocrt.jpg
+nova-varos,povucena-etaza,Povučena etaža,6,/images/projekti/nova-varos/etaze/etaza-2/tlocrt.jpg

@@ -1,0 +1,372 @@
+apartment_slug,name,area
+ada-gm-01,Garažno mjesto,15.30
+ada-gm-02,Garažno mjesto,15.30
+ada-gm-03,Garažno mjesto,14.80
+ada-gm-04,Garažno mjesto,13.86
+ada-gm-05,Garažno mjesto,13.39
+ada-gm-06,Garažno mjesto,15.57
+ada-gm-07,Garažno mjesto,15.88
+ada-gm-08,Garažno mjesto,16.15
+ada-gm-09,Garažno mjesto,16.16
+ada-gm-10,Garažno mjesto,15.89
+ada-gm-11,Garažno mjesto,16.16
+ada-gm-12,Garažno mjesto,14.76
+ada-gm-13,Garažno mjesto,14.58
+ada-gm-14,Garažno mjesto,24.89
+ada-gm-15,Garažno mjesto,14.37
+ada-gm-16,Garažno mjesto,14.49
+ada-gm-17,Garažno mjesto,18.16
+ada-gm-18,Garažno mjesto,19.53
+ada-stan-01,Dnevni boravak + trpezarija + kuhinja,23.93
+ada-stan-01,Hodnik,7.25
+ada-stan-01,Kupatilo,6.42
+ada-stan-01,Lođa,2.35
+ada-stan-01,Spavaća soba,8.98
+ada-stan-02,Dnevni boravak + trpezarija,19.23
+ada-stan-02,Kuhinja,6.66
+ada-stan-02,Hodnik,4.20
+ada-stan-02,Kupatilo,5.04
+ada-stan-02,Lođa,3.97
+ada-stan-02,Spavaća soba,9.07
+ada-stan-03,Dnevni boravak + trpezarija,22.96
+ada-stan-03,Kuhinja,6.13
+ada-stan-03,Hodnik,7.71
+ada-stan-03,Kupatilo,5.25
+ada-stan-03,Lođa,4.75
+ada-stan-03,Spavaća soba,11.12
+ada-stan-03,Spavaća soba,11.62
+ada-stan-04,Dnevni boravak + trpezarija,19.20
+ada-stan-04,Kuhinja,5.21
+ada-stan-04,Hodnik,4.83
+ada-stan-04,Kupatilo,4.87
+ada-stan-04,Lođa,3.06
+ada-stan-04,Spavaća soba,11.70
+ada-stan-05,Dnevni boravak + trpezarija,23.83
+ada-stan-05,Kuhinja,6.35
+ada-stan-05,Hodnik,8.09
+ada-stan-05,Kupatilo,4.92
+ada-stan-05,Lođa,3.34
+ada-stan-05,Spavaća soba,11.01
+ada-stan-05,Spavaća soba,11.37
+ada-stan-05,Spavaća soba,13.77
+ada-stan-05,WC,2.73
+ada-stan-06,Dnevni boravak + trpezarija,23.48
+ada-stan-06,Kuhinja,5.78
+ada-stan-06,Hodnik,8.64
+ada-stan-06,Kupatilo,5.23
+ada-stan-06,Lođa,2.72
+ada-stan-06,Spavaća soba,8.13
+ada-stan-06,Spavaća soba,8.74
+ada-stan-06,Spavaća soba,13.34
+ada-stan-06,WC,2.23
+ada-stan-07,Dnevni boravak + trpezarija + kuhinja,21.66
+ada-stan-07,Hodnik,4.36
+ada-stan-07,Kupatilo,5.21
+ada-stan-07,Lođa,2.49
+ada-stan-07,Spavaća soba,10.86
+ada-stan-08,Dnevni boravak + trpezarija + kuhinja,23.93
+ada-stan-08,Hodnik,7.25
+ada-stan-08,Kupatilo,6.42
+ada-stan-08,Lođa,2.35
+ada-stan-08,Spavaća soba,8.98
+ada-stan-09,Dnevni boravak + trpezarija,19.23
+ada-stan-09,Kuhinja,6.66
+ada-stan-09,Hodnik,4.20
+ada-stan-09,Kupatilo,5.04
+ada-stan-09,Lođa,3.97
+ada-stan-09,Spavaća soba,9.07
+ada-stan-10,Dnevni boravak + trpezarija,22.96
+ada-stan-10,Kuhinja,6.13
+ada-stan-10,Hodnik,7.71
+ada-stan-10,Kupatilo,5.25
+ada-stan-10,Lođa,4.75
+ada-stan-10,Spavaća soba,11.12
+ada-stan-10,Spavaća soba,11.62
+ada-stan-11,Dnevni boravak + trpezarija,19.20
+ada-stan-11,Kuhinja,5.21
+ada-stan-11,Hodnik,4.83
+ada-stan-11,Kupatilo,4.87
+ada-stan-11,Lođa,3.06
+ada-stan-11,Spavaća soba,11.70
+ada-stan-12,Dnevni boravak + trpezarija,23.83
+ada-stan-12,Kuhinja,6.35
+ada-stan-12,Hodnik,8.09
+ada-stan-12,Kupatilo,4.92
+ada-stan-12,Lođa,3.34
+ada-stan-12,Spavaća soba,11.01
+ada-stan-12,Spavaća soba,11.37
+ada-stan-12,Spavaća soba,13.77
+ada-stan-12,WC,2.73
+ada-stan-13,Dnevni boravak + trpezarija,23.48
+ada-stan-13,Kuhinja,5.78
+ada-stan-13,Hodnik,8.64
+ada-stan-13,Kupatilo,5.23
+ada-stan-13,Lođa,2.72
+ada-stan-13,Spavaća soba,8.13
+ada-stan-13,Spavaća soba,8.74
+ada-stan-13,Spavaća soba,13.34
+ada-stan-13,WC,2.23
+ada-stan-14,Dnevni boravak + trpezarija + kuhinja,21.66
+ada-stan-14,Hodnik,4.36
+ada-stan-14,Kupatilo,5.21
+ada-stan-14,Lođa,2.49
+ada-stan-14,Spavaća soba,10.86
+ada-stan-15,Dnevni boravak + trpezarija + kuhinja,23.93
+ada-stan-15,Hodnik,7.25
+ada-stan-15,Kupatilo,6.42
+ada-stan-15,Lođa,2.35
+ada-stan-15,Spavaća soba,8.98
+ada-stan-16,Dnevni boravak + trpezarija,19.23
+ada-stan-16,Kuhinja,6.66
+ada-stan-16,Hodnik,4.20
+ada-stan-16,Kupatilo,5.04
+ada-stan-16,Lođa,3.97
+ada-stan-16,Spavaća soba,9.07
+ada-stan-17,Dnevni boravak + trpezarija,22.96
+ada-stan-17,Kuhinja,6.13
+ada-stan-17,Hodnik,7.71
+ada-stan-17,Kupatilo,5.25
+ada-stan-17,Lođa,4.75
+ada-stan-17,Spavaća soba,11.12
+ada-stan-17,Spavaća soba,11.62
+ada-stan-18,Dnevni boravak + trpezarija,19.20
+ada-stan-18,Kuhinja,5.21
+ada-stan-18,Hodnik,4.83
+ada-stan-18,Kupatilo,4.87
+ada-stan-18,Lođa,3.06
+ada-stan-18,Spavaća soba,11.70
+ada-stan-19,Dnevni boravak + trpezarija,23.83
+ada-stan-19,Kuhinja,6.35
+ada-stan-19,Hodnik,8.09
+ada-stan-19,Kupatilo,4.92
+ada-stan-19,Lođa,3.34
+ada-stan-19,Spavaća soba,11.01
+ada-stan-19,Spavaća soba,11.37
+ada-stan-19,Spavaća soba,13.77
+ada-stan-19,WC,2.73
+ada-stan-20,Dnevni boravak + trpezarija,23.48
+ada-stan-20,Kuhinja,5.78
+ada-stan-20,Hodnik,8.64
+ada-stan-20,Kupatilo,5.23
+ada-stan-20,Lođa,2.72
+ada-stan-20,Spavaća soba,8.13
+ada-stan-20,Spavaća soba,8.74
+ada-stan-20,Spavaća soba,13.34
+ada-stan-20,WC,2.23
+ada-stan-21,Dnevni boravak + trpezarija + kuhinja,21.66
+ada-stan-21,Hodnik,4.36
+ada-stan-21,Kupatilo,5.21
+ada-stan-21,Lođa,2.49
+ada-stan-21,Spavaća soba,10.86
+ada-stan-22,Dnevni boravak + trpezarija + kuhinja,23.93
+ada-stan-22,Hodnik,7.25
+ada-stan-22,Kupatilo,6.42
+ada-stan-22,Lođa,2.35
+ada-stan-22,Spavaća soba,8.98
+ada-stan-23,Dnevni boravak + trpezarija,19.23
+ada-stan-23,Kuhinja,6.66
+ada-stan-23,Hodnik,4.20
+ada-stan-23,Kupatilo,5.04
+ada-stan-23,Lođa,3.97
+ada-stan-23,Spavaća soba,9.07
+ada-stan-24,Dnevni boravak + trpezarija,22.96
+ada-stan-24,Kuhinja,6.13
+ada-stan-24,Hodnik,7.71
+ada-stan-24,Kupatilo,5.25
+ada-stan-24,Lođa,4.75
+ada-stan-24,Spavaća soba,11.12
+ada-stan-24,Spavaća soba,11.62
+ada-stan-25,Dnevni boravak + trpezarija,19.20
+ada-stan-25,Kuhinja,5.21
+ada-stan-25,Hodnik,4.83
+ada-stan-25,Kupatilo,4.87
+ada-stan-25,Lođa,3.06
+ada-stan-25,Spavaća soba,11.70
+ada-stan-26,Dnevni boravak + trpezarija,23.83
+ada-stan-26,Kuhinja,6.35
+ada-stan-26,Hodnik,8.09
+ada-stan-26,Kupatilo,4.92
+ada-stan-26,Lođa,3.34
+ada-stan-26,Spavaća soba,11.01
+ada-stan-26,Spavaća soba,11.37
+ada-stan-26,Spavaća soba,13.77
+ada-stan-26,WC,2.73
+ada-stan-27,Dnevni boravak + trpezarija,23.48
+ada-stan-27,Kuhinja,5.78
+ada-stan-27,Hodnik,8.64
+ada-stan-27,Kupatilo,5.23
+ada-stan-27,Lođa,2.72
+ada-stan-27,Spavaća soba,8.13
+ada-stan-27,Spavaća soba,8.74
+ada-stan-27,Spavaća soba,13.34
+ada-stan-27,WC,2.23
+ada-stan-28,Dnevni boravak + trpezarija + kuhinja,21.66
+ada-stan-28,Hodnik,4.36
+ada-stan-28,Kupatilo,5.21
+ada-stan-28,Lođa,2.49
+ada-stan-28,Spavaća soba,10.86
+ada-stan-29,Dnevni boravak + trpezarija + kuhinja,23.93
+ada-stan-29,Hodnik,7.25
+ada-stan-29,Kupatilo,6.42
+ada-stan-29,Lođa,2.35
+ada-stan-29,Spavaća soba,8.98
+ada-stan-30,Dnevni boravak + trpezarija,19.23
+ada-stan-30,Kuhinja,6.66
+ada-stan-30,Hodnik,4.20
+ada-stan-30,Kupatilo,5.04
+ada-stan-30,Lođa,3.97
+ada-stan-30,Spavaća soba,9.07
+ada-stan-31,Dnevni boravak + trpezarija,22.96
+ada-stan-31,Kuhinja,6.13
+ada-stan-31,Hodnik,7.71
+ada-stan-31,Kupatilo,5.25
+ada-stan-31,Lođa,4.75
+ada-stan-31,Spavaća soba,11.12
+ada-stan-31,Spavaća soba,11.62
+ada-stan-32,Dnevni boravak + trpezarija,19.20
+ada-stan-32,Kuhinja,5.21
+ada-stan-32,Hodnik,4.83
+ada-stan-32,Kupatilo,4.87
+ada-stan-32,Lođa,3.06
+ada-stan-32,Spavaća soba,11.70
+ada-stan-33,Dnevni boravak + trpezarija,23.83
+ada-stan-33,Kuhinja,6.35
+ada-stan-33,Hodnik,8.09
+ada-stan-33,Kupatilo,4.92
+ada-stan-33,Lođa,3.34
+ada-stan-33,Spavaća soba,11.01
+ada-stan-33,Spavaća soba,11.37
+ada-stan-33,Spavaća soba,13.77
+ada-stan-33,WC,2.73
+ada-stan-34,Dnevni boravak + trpezarija,23.48
+ada-stan-34,Kuhinja,5.78
+ada-stan-34,Hodnik,8.64
+ada-stan-34,Kupatilo,5.23
+ada-stan-34,Lođa,2.72
+ada-stan-34,Spavaća soba,8.13
+ada-stan-34,Spavaća soba,8.74
+ada-stan-34,Spavaća soba,13.34
+ada-stan-34,WC,2.23
+ada-stan-35,Dnevni boravak + trpezarija + kuhinja,21.66
+ada-stan-35,Hodnik,4.36
+ada-stan-35,Kupatilo,5.21
+ada-stan-35,Lođa,2.49
+ada-stan-35,Spavaća soba,10.86
+nv-pm-01,Parking mjesto,13.96
+nv-pm-02,Parking mjesto,13.24
+nv-pm-03,Parking mjesto,15.73
+nv-pm-04,Parking mjesto,14.58
+nv-pm-05,Parking mjesto,13.78
+nv-pm-06,Parking mjesto,14.51
+nv-pm-07,Parking mjesto,15.04
+nv-pp-01,Poslovni prostor,98.20
+nv-pp-01,Sanitarni čvor,6.79
+nv-stan-01,Dnevna soba i trpezarija,17.89
+nv-stan-01,Kuhinja,3.87
+nv-stan-01,Spavaća soba,10.00
+nv-stan-01,Hodnik,7.29
+nv-stan-01,Kupatilo,3.11
+nv-stan-01,Lođa,2.27
+nv-stan-02,Dnevna soba i trpezarija,19.60
+nv-stan-02,Kuhinja,5.92
+nv-stan-02,Spavaća soba,11.96
+nv-stan-02,Hodnik,7.21
+nv-stan-02,Kupatilo,5.77
+nv-stan-02,Lođa,3.12
+nv-stan-03,Dnevna soba i trpezarija,16.55
+nv-stan-03,Kuhinja,6.60
+nv-stan-03,Spavaća soba,12.42
+nv-stan-03,Hodnik,4.45
+nv-stan-03,Kupatilo,3.89
+nv-stan-03,Lođa,3.31
+nv-stan-04,Dnevna soba,15.08
+nv-stan-04,Kuhinja i trpezarija,7.63
+nv-stan-04,Spavaća soba,9.50
+nv-stan-04,Hodnik,3.25
+nv-stan-04,Kupatilo,4.29
+nv-stan-05,Dnevna soba i trpezarija,17.89
+nv-stan-05,Kuhinja,3.87
+nv-stan-05,Spavaća soba,10.00
+nv-stan-05,Hodnik,7.29
+nv-stan-05,Kupatilo,3.11
+nv-stan-05,Lođa,2.27
+nv-stan-06,Dnevna soba i trpezarija,19.60
+nv-stan-06,Kuhinja,5.92
+nv-stan-06,Spavaća soba,11.96
+nv-stan-06,Hodnik,7.21
+nv-stan-06,Kupatilo,5.77
+nv-stan-06,Lođa,3.12
+nv-stan-07,Dnevna soba i trpezarija,16.55
+nv-stan-07,Kuhinja,6.60
+nv-stan-07,Spavaća soba,12.42
+nv-stan-07,Hodnik,4.45
+nv-stan-07,Kupatilo,3.89
+nv-stan-07,Lođa,3.31
+nv-stan-08,Dnevna soba,15.08
+nv-stan-08,Kuhinja i trpezarija,7.63
+nv-stan-08,Spavaća soba,9.50
+nv-stan-08,Hodnik,3.25
+nv-stan-08,Kupatilo,4.29
+nv-stan-09,Dnevna soba i trpezarija,17.89
+nv-stan-09,Kuhinja,3.87
+nv-stan-09,Spavaća soba,10.00
+nv-stan-09,Hodnik,7.29
+nv-stan-09,Kupatilo,3.11
+nv-stan-09,Lođa,2.27
+nv-stan-10,Dnevna soba i trpezarija,19.60
+nv-stan-10,Kuhinja,5.92
+nv-stan-10,Spavaća soba,11.96
+nv-stan-10,Hodnik,7.21
+nv-stan-10,Kupatilo,5.77
+nv-stan-10,Lođa,3.12
+nv-stan-11,Dnevna soba i trpezarija,16.55
+nv-stan-11,Kuhinja,6.60
+nv-stan-11,Spavaća soba,12.42
+nv-stan-11,Hodnik,4.45
+nv-stan-11,Kupatilo,3.89
+nv-stan-11,Lođa,3.31
+nv-stan-12,Dnevna soba,15.08
+nv-stan-12,Kuhinja i trpezarija,7.63
+nv-stan-12,Spavaća soba,9.50
+nv-stan-12,Hodnik,3.25
+nv-stan-12,Kupatilo,4.29
+nv-stan-13,Dnevna soba i trpezarija,16.55
+nv-stan-13,Kuhinja,6.60
+nv-stan-13,Spavaća soba,12.42
+nv-stan-13,Hodnik,4.45
+nv-stan-13,Kupatilo,3.89
+nv-stan-13,Lođa,3.31
+nv-stan-14,Dnevna soba,15.08
+nv-stan-14,Kuhinja i trpezarija,7.63
+nv-stan-14,Spavaća soba,9.50
+nv-stan-14,Hodnik,3.25
+nv-stan-14,Kupatilo,4.29
+nv-stan-15,Dnevna soba,20.83
+nv-stan-15,Kuhinja i trpezarija,11.54
+nv-stan-15,Spavaća soba,11.96
+nv-stan-15,Spavaća soba,21.68
+nv-stan-15,Spavaća soba,10.00
+nv-stan-15,Hodnik,9.78
+nv-stan-15,Kupatilo,5.10
+nv-stan-15,Vešeraj,0.95
+nv-stan-15,WC,1.83
+nv-stan-15,Lođa,3.30
+nv-stan-15,Lođa,2.27
+nv-stan-16,Dnevna soba,20.83
+nv-stan-16,Kuhinja i trpezarija,11.54
+nv-stan-16,Spavaća soba,8.84
+nv-stan-16,Spavaća soba,13.90
+nv-stan-16,Spavaća soba,21.68
+nv-stan-16,Spavaća soba,10.00
+nv-stan-16,Hodnik,11.17
+nv-stan-16,Kupatilo,7.30
+nv-stan-16,Vešeraj,2.10
+nv-stan-16,WC,3.72
+nv-stan-16,Lođa,2.27
+nv-stan-17,Dnevna soba i trpezarija,23.15
+nv-stan-17,Kuhinja,8.37
+nv-stan-17,Spavaća soba,8.51
+nv-stan-17,Spavaća soba,11.58
+nv-stan-17,Hodnik,4.74
+nv-stan-17,Kupatilo,4.81
+nv-stan-17,Ostava,1.75
