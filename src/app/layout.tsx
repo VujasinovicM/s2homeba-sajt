@@ -7,7 +7,7 @@ import { siteInfo } from '@/data/site';
 export const metadata: Metadata = {
   metadataBase: new URL('https://s2home.ba'),
   title: {
-    default: 'S2 HOME – Investitor u izgradnju nekretnina | Banja Luka',
+    default: 'S2 HOME – vaš pouzdan partner | Banja Luka',
     template: '%s | S2 HOME',
   },
   description:
