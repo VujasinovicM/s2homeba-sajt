@@ -3,7 +3,12 @@ import Image from 'next/image';
 import HeroHeader from '@/components/HeroHeader';
 import { projects } from '@/data/projects';
 
-export const metadata: Metadata = { title: 'Reference' };
+export const metadata: Metadata = {
+  title: 'Reference',
+  description:
+    'Završeni projekti i realizovane investicije kompanije S2 HOME d.o.o. Banja Luka. Dokaz kvaliteta i pouzdanosti u izgradnji nekretnina.',
+  alternates: { canonical: 'https://s2home.ba/reference' },
+};
 
 export default function ReferencePage() {
   const finished = projects.filter((p) => p.status === 'završen');

@@ -22,7 +22,11 @@ export async function generateMetadata(
   const project = getProjectBySlug(pSlug);
   const floor = project ? getFloorBySlug(project, fSlug) : undefined;
   if (!project || !floor) return {};
-  return { title: `${floor.name} – ${project.name}` };
+  return {
+    title: `${floor.name} – ${project.name}`,
+    description: `Stanovi na etaži ${floor.name}, projekat ${project.name} — S2 HOME d.o.o. Banja Luka. Dostupnost i tlocrti stanova.`,
+    alternates: { canonical: `https://s2home.ba/projekti/${pSlug}/${fSlug}` },
+  };
 }
 
 const statusColors: Record<string, string> = {

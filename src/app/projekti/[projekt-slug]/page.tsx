@@ -14,7 +14,11 @@ export async function generateMetadata(props: PageProps<'/projekti/[projekt-slug
   const { 'projekt-slug': slug } = await props.params;
   const project = getProjectBySlug(slug);
   if (!project) return {};
-  return { title: project.name };
+  return {
+    title: project.name,
+    description: `${project.shortDescription} — projekat S2 HOME d.o.o. u Banjoj Luci.`,
+    alternates: { canonical: `https://s2home.ba/projekti/${slug}` },
+  };
 }
 
 export default async function ProjektPage(props: PageProps<'/projekti/[projekt-slug]'>) {

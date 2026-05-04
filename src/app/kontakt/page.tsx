@@ -2,7 +2,12 @@ import type { Metadata } from 'next';
 import HeroHeader from '@/components/HeroHeader';
 import { siteInfo } from '@/data/site';
 
-export const metadata: Metadata = { title: 'Kontakt' };
+export const metadata: Metadata = {
+  title: 'Kontakt',
+  description:
+    'Kontaktirajte S2 HOME d.o.o. — Ul. Akademika Jovana Surutke 9, Banja Luka. Tel: 066 992 999. Pon–Pet 08:00–16:00.',
+  alternates: { canonical: 'https://s2home.ba/kontakt' },
+};
 
 export default function KontaktPage() {
   return (

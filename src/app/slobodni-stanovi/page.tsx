@@ -3,7 +3,12 @@ import HeroHeader from '@/components/HeroHeader';
 import { projects, getFreeApartmentsCount } from '@/data/projects';
 import SlobodniStanoviClient from './SlobodniStanoviClient';
 
-export const metadata: Metadata = { title: 'Slobodni stanovi' };
+export const metadata: Metadata = {
+  title: 'Slobodni stanovi',
+  description:
+    'Slobodni stanovi na prodaju u Banjoj Luci — S2 HOME d.o.o. Provjerite dostupnost i cijene stanova u našim aktivnim projektima.',
+  alternates: { canonical: 'https://s2home.ba/slobodni-stanovi' },
+};
 
 export default function SlobodniStanoviPage() {
   const activeProjects = projects

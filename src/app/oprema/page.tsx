@@ -1,7 +1,12 @@
 import type { Metadata } from 'next';
 import HeroHeader from '@/components/HeroHeader';
 
-export const metadata: Metadata = { title: 'Oprema' };
+export const metadata: Metadata = {
+  title: 'Oprema',
+  description:
+    'Detaljan pregled materijala i opreme koje S2 HOME d.o.o. koristi u izgradnji: sanitarije, podne obloge, stolarija i grijanje.',
+  alternates: { canonical: 'https://s2home.ba/oprema' },
+};
 
 const sections = [
   {

@@ -3,7 +3,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import HeroHeader from '@/components/HeroHeader';
 
-export const metadata: Metadata = { title: 'O nama' };
+export const metadata: Metadata = {
+  title: 'O nama',
+  description:
+    'S2 HOME d.o.o. — investitor i graditelj nekretnina sa sjedištem u Banjoj Luci, BiH. Upoznajte našu kompaniju, tim i vrijednosti.',
+  alternates: { canonical: 'https://s2home.ba/o-nama' },
+};
 
 export default function ONamaPage() {
   return (

@@ -4,7 +4,12 @@ import Image from 'next/image';
 import HeroHeader from '@/components/HeroHeader';
 import { projects } from '@/data/projects';
 
-export const metadata: Metadata = { title: 'Projekti' };
+export const metadata: Metadata = {
+  title: 'Projekti',
+  description:
+    'Pregled svih stambenih i poslovnih projekata kompanije S2 HOME d.o.o. u Banjoj Luci. Aktivni projekti i završene investicije.',
+  alternates: { canonical: 'https://s2home.ba/projekti' },
+};
 
 export default function ProjektiPage() {
   return (
