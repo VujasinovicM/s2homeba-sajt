@@ -370,3 +370,599 @@ nv-stan-17,Spavaća soba,11.58
 nv-stan-17,Hodnik,4.74
 nv-stan-17,Kupatilo,4.81
 nv-stan-17,Ostava,1.75
+l4-stan-01,Predulaz,2.52
+l4-stan-01,Kupatilo,4.59
+l4-stan-01,Kuhinja,6.56
+l4-stan-01,Boravak i trpezarija,18.87
+l4-stan-01,Spavaća soba,12.75
+l4-stan-02,Predulaz,2.52
+l4-stan-02,Kupatilo,4.59
+l4-stan-02,Kuhinja,6.56
+l4-stan-02,Boravak i trpezarija,18.87
+l4-stan-02,Spavaća soba,12.75
+l4-stan-03,Predulaz,3.00
+l4-stan-03,Kupatilo,3.84
+l4-stan-03,Kuhinja,5.48
+l4-stan-03,Boravak i trpezarija,15.28
+l4-stan-03,Degažman,3.78
+l4-stan-03,Spavaća soba,14.12
+l4-stan-03,Dječija soba,7.85
+l4-stan-04,Predulaz,3.28
+l4-stan-04,Kupatilo,3.97
+l4-stan-04,Kuhinja,4.24
+l4-stan-04,Boravak i trpezarija,15.72
+l4-stan-04,Degažman,2.19
+l4-stan-04,Spavaća soba,9.97
+l4-stan-04,Dječija soba,9.97
+l4-stan-05,Predulaz,3.86
+l4-stan-05,Kupatilo,4.24
+l4-stan-05,Kuhinja,3.70
+l4-stan-05,Boravak i trpezarija,11.34
+l4-stan-05,Spavaća soba,11.35
+l4-stan-06,Predulaz,4.44
+l4-stan-06,Kupatilo,4.55
+l4-stan-06,Kuhinja,4.03
+l4-stan-06,Boravak i trpezarija,18.47
+l4-stan-06,Spavaća soba,12.77
+l4-stan-06,Lođa,3.14
+l4-stan-13,Predulaz,4.44
+l4-stan-13,Kupatilo,4.55
+l4-stan-13,Kuhinja,4.03
+l4-stan-13,Boravak i trpezarija,18.47
+l4-stan-13,Spavaća soba,12.77
+l4-stan-13,Lođa,3.14
+l4-stan-20,Predulaz,4.44
+l4-stan-20,Kupatilo,4.55
+l4-stan-20,Kuhinja,4.03
+l4-stan-20,Boravak i trpezarija,18.47
+l4-stan-20,Spavaća soba,12.77
+l4-stan-20,Lođa,3.14
+l4-stan-27,Predulaz,4.44
+l4-stan-27,Kupatilo,4.55
+l4-stan-27,Kuhinja,4.03
+l4-stan-27,Boravak i trpezarija,18.47
+l4-stan-27,Spavaća soba,12.77
+l4-stan-27,Lođa,3.14
+l4-stan-33,Predulaz,4.44
+l4-stan-33,Kupatilo,4.55
+l4-stan-33,Kuhinja,4.03
+l4-stan-33,Boravak i trpezarija,18.47
+l4-stan-33,Spavaća soba,12.77
+l4-stan-33,Lođa,3.14
+l4-stan-39,Predulaz,4.44
+l4-stan-39,Kupatilo,4.55
+l4-stan-39,Kuhinja,4.03
+l4-stan-39,Boravak i trpezarija,18.47
+l4-stan-39,Spavaća soba,12.77
+l4-stan-39,Lođa,3.14
+l4-stan-44,Predulaz,4.44
+l4-stan-44,Kupatilo,4.55
+l4-stan-44,Kuhinja,4.03
+l4-stan-44,Boravak i trpezarija,18.47
+l4-stan-44,Spavaća soba,12.77
+l4-stan-44,Lođa,3.14
+l4-stan-07,Predulaz,2.66
+l4-stan-07,Kupatilo,3.97
+l4-stan-07,Kuhinja,4.03
+l4-stan-07,Boravak i trpezarija,17.41
+l4-stan-07,Spavaća soba,10.21
+l4-stan-07,Lođa,3.17
+l4-stan-14,Predulaz,2.66
+l4-stan-14,Kupatilo,3.97
+l4-stan-14,Kuhinja,4.03
+l4-stan-14,Boravak i trpezarija,17.41
+l4-stan-14,Spavaća soba,10.21
+l4-stan-14,Lođa,3.17
+l4-stan-21,Predulaz,2.66
+l4-stan-21,Kupatilo,3.97
+l4-stan-21,Kuhinja,4.03
+l4-stan-21,Boravak i trpezarija,17.41
+l4-stan-21,Spavaća soba,10.21
+l4-stan-21,Lođa,3.17
+l4-stan-28,Predulaz,2.66
+l4-stan-28,Kupatilo,3.97
+l4-stan-28,Kuhinja,4.03
+l4-stan-28,Boravak i trpezarija,17.41
+l4-stan-28,Spavaća soba,10.21
+l4-stan-28,Lođa,3.17
+l4-stan-34,Predulaz,2.66
+l4-stan-34,Kupatilo,3.97
+l4-stan-34,Kuhinja,4.03
+l4-stan-34,Boravak i trpezarija,17.41
+l4-stan-34,Spavaća soba,10.21
+l4-stan-34,Lođa,3.17
+l4-stan-40,Predulaz,2.66
+l4-stan-40,Kupatilo,3.97
+l4-stan-40,Kuhinja,4.03
+l4-stan-40,Boravak i trpezarija,17.41
+l4-stan-40,Spavaća soba,10.21
+l4-stan-40,Lođa,3.17
+l4-stan-45,Predulaz,2.66
+l4-stan-45,Kupatilo,3.97
+l4-stan-45,Kuhinja,4.03
+l4-stan-45,Boravak i trpezarija,17.41
+l4-stan-45,Spavaća soba,10.21
+l4-stan-45,Lođa,3.17
+l4-stan-08,Predulaz,2.26
+l4-stan-08,Kupatilo,3.56
+l4-stan-08,Kuhinja,3.76
+l4-stan-08,Boravak i trpezarija,14.26
+l4-stan-08,Degažman,10.18
+l4-stan-08,Dječija soba,9.43
+l4-stan-08,Spavaća soba,14.71
+l4-stan-08,Lođa,3.15
+l4-stan-15,Predulaz,2.26
+l4-stan-15,Kupatilo,3.56
+l4-stan-15,Kuhinja,3.76
+l4-stan-15,Boravak i trpezarija,14.26
+l4-stan-15,Degažman,10.18
+l4-stan-15,Dječija soba,9.43
+l4-stan-15,Spavaća soba,14.71
+l4-stan-15,Lođa,3.15
+l4-stan-22,Predulaz,2.26
+l4-stan-22,Kupatilo,3.56
+l4-stan-22,Kuhinja,3.76
+l4-stan-22,Boravak i trpezarija,14.26
+l4-stan-22,Degažman,10.18
+l4-stan-22,Dječija soba,9.43
+l4-stan-22,Spavaća soba,14.71
+l4-stan-22,Lođa,3.15
+l4-stan-29,Predulaz,2.26
+l4-stan-29,Kupatilo,3.56
+l4-stan-29,Kuhinja,3.76
+l4-stan-29,Boravak i trpezarija,14.26
+l4-stan-29,Degažman,10.18
+l4-stan-29,Dječija soba,9.43
+l4-stan-29,Spavaća soba,14.71
+l4-stan-29,Lođa,3.15
+l4-stan-35,Predulaz,2.26
+l4-stan-35,Kupatilo,3.56
+l4-stan-35,Kuhinja,3.76
+l4-stan-35,Boravak i trpezarija,14.26
+l4-stan-35,Degažman,10.18
+l4-stan-35,Dječija soba,9.43
+l4-stan-35,Spavaća soba,14.71
+l4-stan-35,Lođa,3.15
+l4-stan-41,Predulaz,2.26
+l4-stan-41,Kupatilo,3.56
+l4-stan-41,Kuhinja,3.76
+l4-stan-41,Boravak i trpezarija,14.26
+l4-stan-41,Degažman,10.18
+l4-stan-41,Dječija soba,9.43
+l4-stan-41,Spavaća soba,14.71
+l4-stan-41,Lođa,3.15
+l4-stan-46,Predulaz,2.26
+l4-stan-46,Kupatilo,3.56
+l4-stan-46,Kuhinja,3.76
+l4-stan-46,Boravak i trpezarija,14.26
+l4-stan-46,Degažman,10.18
+l4-stan-46,Dječija soba,9.43
+l4-stan-46,Spavaća soba,14.71
+l4-stan-46,Lođa,3.15
+l4-stan-09,Predulaz,2.88
+l4-stan-09,Kupatilo,3.10
+l4-stan-09,Kuhinja,3.79
+l4-stan-09,Boravak i trpezarija,17.56
+l4-stan-09,Spavaća soba,14.39
+l4-stan-09,Lođa,3.17
+l4-stan-16,Predulaz,2.88
+l4-stan-16,Kupatilo,3.10
+l4-stan-16,Kuhinja,3.79
+l4-stan-16,Boravak i trpezarija,17.56
+l4-stan-16,Spavaća soba,14.39
+l4-stan-16,Lođa,3.17
+l4-stan-23,Predulaz,2.88
+l4-stan-23,Kupatilo,3.10
+l4-stan-23,Kuhinja,3.79
+l4-stan-23,Boravak i trpezarija,17.56
+l4-stan-23,Spavaća soba,14.39
+l4-stan-23,Lođa,3.17
+l4-stan-10,Predulaz,2.41
+l4-stan-10,Kupatilo,4.28
+l4-stan-10,Kuhinja,3.95
+l4-stan-10,Boravak i trpezarija,14.76
+l4-stan-10,Spavaća soba,10.12
+l4-stan-10,Lođa,3.25
+l4-stan-17,Predulaz,2.41
+l4-stan-17,Kupatilo,4.28
+l4-stan-17,Kuhinja,3.95
+l4-stan-17,Boravak i trpezarija,14.76
+l4-stan-17,Spavaća soba,10.12
+l4-stan-17,Lođa,3.25
+l4-stan-24,Predulaz,2.41
+l4-stan-24,Kupatilo,4.28
+l4-stan-24,Kuhinja,3.95
+l4-stan-24,Boravak i trpezarija,14.76
+l4-stan-24,Spavaća soba,10.12
+l4-stan-24,Lođa,3.25
+l4-stan-11,Predulaz,4.19
+l4-stan-11,Kupatilo,4.33
+l4-stan-11,Kuhinja,3.13
+l4-stan-11,Boravak i trpezarija,17.44
+l4-stan-11,Spavaća soba,11.56
+l4-stan-11,Lođa,3.40
+l4-stan-18,Predulaz,4.19
+l4-stan-18,Kupatilo,4.33
+l4-stan-18,Kuhinja,3.13
+l4-stan-18,Boravak i trpezarija,17.44
+l4-stan-18,Spavaća soba,11.56
+l4-stan-18,Lođa,3.40
+l4-stan-25,Predulaz,4.19
+l4-stan-25,Kupatilo,4.33
+l4-stan-25,Kuhinja,3.13
+l4-stan-25,Boravak i trpezarija,17.44
+l4-stan-25,Spavaća soba,11.56
+l4-stan-25,Lođa,3.40
+l4-stan-12,Predulaz,4.19
+l4-stan-12,Kupatilo,4.33
+l4-stan-12,Kuhinja,3.13
+l4-stan-12,Boravak i trpezarija,17.44
+l4-stan-12,Spavaća soba,11.56
+l4-stan-12,Lođa,3.40
+l4-stan-19,Predulaz,4.19
+l4-stan-19,Kupatilo,4.33
+l4-stan-19,Kuhinja,3.13
+l4-stan-19,Boravak i trpezarija,17.44
+l4-stan-19,Spavaća soba,11.56
+l4-stan-19,Lođa,3.40
+l4-stan-26,Predulaz,4.19
+l4-stan-26,Kupatilo,4.33
+l4-stan-26,Kuhinja,3.13
+l4-stan-26,Boravak i trpezarija,17.44
+l4-stan-26,Spavaća soba,11.56
+l4-stan-26,Lođa,3.40
+l4-stan-32,Predulaz,4.19
+l4-stan-32,Kupatilo,4.33
+l4-stan-32,Kuhinja,3.13
+l4-stan-32,Boravak i trpezarija,17.44
+l4-stan-32,Spavaća soba,11.56
+l4-stan-32,Lođa,3.40
+l4-stan-38,Predulaz,4.19
+l4-stan-38,Kupatilo,4.33
+l4-stan-38,Kuhinja,3.13
+l4-stan-38,Boravak i trpezarija,17.44
+l4-stan-38,Spavaća soba,11.56
+l4-stan-38,Lođa,3.40
+l4-stan-30,Predulaz,5.88
+l4-stan-30,Kupatilo,3.89
+l4-stan-30,Kuhinja,7.68
+l4-stan-30,Boravak i trpezarija,16.40
+l4-stan-30,Dječija soba,12.10
+l4-stan-30,Spavaća soba,9.97
+l4-stan-30,Kupatilo 2,3.75
+l4-stan-30,Lođa,3.17
+l4-stan-36,Predulaz,5.88
+l4-stan-36,Kupatilo,3.89
+l4-stan-36,Kuhinja,7.68
+l4-stan-36,Boravak i trpezarija,16.40
+l4-stan-36,Dječija soba,12.10
+l4-stan-36,Spavaća soba,9.97
+l4-stan-36,Kupatilo 2,3.75
+l4-stan-36,Lođa,3.17
+l4-stan-31,Predulaz,3.70
+l4-stan-31,Kupatilo,4.82
+l4-stan-31,Kuhinja,4.18
+l4-stan-31,Boravak i trpezarija,15.75
+l4-stan-31,Degažman,16.44
+l4-stan-31,Dječija soba,10.34
+l4-stan-31,Spavaća soba,10.34
+l4-stan-31,Lođa,6.80
+l4-stan-37,Predulaz,3.70
+l4-stan-37,Kupatilo,4.82
+l4-stan-37,Kuhinja,4.18
+l4-stan-37,Boravak i trpezarija,15.75
+l4-stan-37,Degažman,16.44
+l4-stan-37,Dječija soba,10.34
+l4-stan-37,Spavaća soba,10.34
+l4-stan-37,Lođa,6.80
+l4-stan-42,Predulaz,2.98
+l4-stan-42,Kupatilo,3.92
+l4-stan-42,Kuhinja,5.35
+l4-stan-42,Boravak i trpezarija,22.44
+l4-stan-42,Spavaća soba 1,14.28
+l4-stan-42,Degažman,1.67
+l4-stan-42,Dječija soba,10.28
+l4-stan-42,Spavaća soba 2,13.64
+l4-stan-42,Kupatilo 2,3.91
+l4-stan-42,Lođa 1,3.24
+l4-stan-42,Lođa 2,3.17
+l4-stan-47,Predulaz,2.98
+l4-stan-47,Kupatilo,3.92
+l4-stan-47,Kuhinja,5.35
+l4-stan-47,Boravak i trpezarija,22.44
+l4-stan-47,Spavaća soba 1,14.28
+l4-stan-47,Degažman,1.67
+l4-stan-47,Dječija soba,10.28
+l4-stan-47,Spavaća soba 2,13.64
+l4-stan-47,Kupatilo 2,3.91
+l4-stan-47,Lođa 1,3.24
+l4-stan-47,Lođa 2,3.17
+l4-stan-43,Predulaz,3.07
+l4-stan-43,Kupatilo,4.04
+l4-stan-43,Kuhinja,4.62
+l4-stan-43,Boravak i trpezarija,21.03
+l4-stan-43,Hodnik,5.25
+l4-stan-43,Vešeraj,2.63
+l4-stan-43,Dječija soba 1,12.18
+l4-stan-43,Dječija soba 2,10.38
+l4-stan-43,Spavaća soba,11.55
+l4-stan-43,Kupatilo 2,4.33
+l4-stan-43,Lođa 1,3.38
+l4-stan-43,Lođa 2,3.24
+l4-stan-48,Predulaz,3.07
+l4-stan-48,Kupatilo,4.04
+l4-stan-48,Kuhinja,4.62
+l4-stan-48,Boravak i trpezarija,21.03
+l4-stan-48,Hodnik,5.25
+l4-stan-48,Vešeraj,2.63
+l4-stan-48,Dječija soba 1,12.18
+l4-stan-48,Dječija soba 2,10.38
+l4-stan-48,Spavaća soba,11.55
+l4-stan-48,Kupatilo 2,4.33
+l4-stan-48,Lođa 1,3.38
+l4-stan-48,Lođa 2,3.24
+l5-stan-01,Predulaz,3.26
+l5-stan-01,Kupatilo,4.48
+l5-stan-01,Kuhinja,4.45
+l5-stan-01,Boravak i trpezarija,18.85
+l5-stan-01,Spavaća soba,9.68
+l5-stan-01,Degažman,4.41
+l5-stan-01,Lođa,3.13
+l5-stan-07,Predulaz,3.26
+l5-stan-07,Kupatilo,4.48
+l5-stan-07,Kuhinja,4.45
+l5-stan-07,Boravak i trpezarija,18.85
+l5-stan-07,Spavaća soba,9.68
+l5-stan-07,Degažman,4.41
+l5-stan-07,Lođa,3.13
+l5-stan-13,Predulaz,3.26
+l5-stan-13,Kupatilo,4.48
+l5-stan-13,Kuhinja,4.45
+l5-stan-13,Boravak i trpezarija,18.85
+l5-stan-13,Spavaća soba,9.68
+l5-stan-13,Degažman,4.41
+l5-stan-13,Lođa,3.13
+l5-stan-19,Predulaz,3.26
+l5-stan-19,Kupatilo,4.48
+l5-stan-19,Kuhinja,4.45
+l5-stan-19,Boravak i trpezarija,18.85
+l5-stan-19,Spavaća soba,9.68
+l5-stan-19,Degažman,4.41
+l5-stan-19,Lođa,3.13
+l5-stan-25,Predulaz,3.26
+l5-stan-25,Kupatilo,4.48
+l5-stan-25,Kuhinja,4.45
+l5-stan-25,Boravak i trpezarija,18.85
+l5-stan-25,Spavaća soba,9.68
+l5-stan-25,Degažman,4.41
+l5-stan-25,Lođa,3.13
+l5-stan-31,Predulaz,3.26
+l5-stan-31,Kupatilo,4.48
+l5-stan-31,Kuhinja,4.45
+l5-stan-31,Boravak i trpezarija,18.85
+l5-stan-31,Spavaća soba,9.68
+l5-stan-31,Degažman,4.41
+l5-stan-31,Lođa,3.13
+l5-stan-02,Predulaz,5.32
+l5-stan-02,Kupatilo,4.08
+l5-stan-02,Kuhinja,6.13
+l5-stan-02,Boravak i trpezarija,11.95
+l5-stan-02,Spavaća soba,11.95
+l5-stan-02,Garderober,3.63
+l5-stan-02,Lođa,2.78
+l5-stan-08,Predulaz,5.32
+l5-stan-08,Kupatilo,4.08
+l5-stan-08,Kuhinja,6.13
+l5-stan-08,Boravak i trpezarija,11.95
+l5-stan-08,Spavaća soba,11.95
+l5-stan-08,Garderober,3.63
+l5-stan-08,Lođa,2.78
+l5-stan-14,Predulaz,5.32
+l5-stan-14,Kupatilo,4.08
+l5-stan-14,Kuhinja,6.13
+l5-stan-14,Boravak i trpezarija,11.95
+l5-stan-14,Spavaća soba,11.95
+l5-stan-14,Garderober,3.63
+l5-stan-14,Lođa,2.78
+l5-stan-20,Predulaz,5.32
+l5-stan-20,Kupatilo,4.08
+l5-stan-20,Kuhinja,6.13
+l5-stan-20,Boravak i trpezarija,11.95
+l5-stan-20,Spavaća soba,11.95
+l5-stan-20,Garderober,3.63
+l5-stan-20,Lođa,2.78
+l5-stan-26,Predulaz,5.32
+l5-stan-26,Kupatilo,4.08
+l5-stan-26,Kuhinja,6.13
+l5-stan-26,Boravak i trpezarija,11.95
+l5-stan-26,Spavaća soba,11.95
+l5-stan-26,Garderober,3.63
+l5-stan-26,Lođa,2.78
+l5-stan-32,Predulaz,5.32
+l5-stan-32,Kupatilo,4.08
+l5-stan-32,Kuhinja,6.13
+l5-stan-32,Boravak i trpezarija,11.95
+l5-stan-32,Spavaća soba,11.95
+l5-stan-32,Garderober,3.63
+l5-stan-32,Lođa,2.78
+l5-stan-03,Predulaz,2.02
+l5-stan-03,Degažman,5.53
+l5-stan-03,Kupatilo,4.75
+l5-stan-03,Kuhinja,3.89
+l5-stan-03,Boravak i trpezarija,21.16
+l5-stan-03,Spavaća soba,12.28
+l5-stan-03,Garderoba,2.60
+l5-stan-03,Dječija soba,6.95
+l5-stan-03,Lođa,8.42
+l5-stan-09,Predulaz,2.02
+l5-stan-09,Degažman,5.53
+l5-stan-09,Kupatilo,4.75
+l5-stan-09,Kuhinja,3.89
+l5-stan-09,Boravak i trpezarija,21.16
+l5-stan-09,Spavaća soba,12.28
+l5-stan-09,Garderoba,2.60
+l5-stan-09,Dječija soba,6.95
+l5-stan-09,Lođa,8.42
+l5-stan-15,Predulaz,2.02
+l5-stan-15,Degažman,5.53
+l5-stan-15,Kupatilo,4.75
+l5-stan-15,Kuhinja,3.89
+l5-stan-15,Boravak i trpezarija,21.16
+l5-stan-15,Spavaća soba,12.28
+l5-stan-15,Garderoba,2.60
+l5-stan-15,Dječija soba,6.95
+l5-stan-15,Lođa,8.42
+l5-stan-21,Predulaz,2.02
+l5-stan-21,Degažman,5.53
+l5-stan-21,Kupatilo,4.75
+l5-stan-21,Kuhinja,3.89
+l5-stan-21,Boravak i trpezarija,21.16
+l5-stan-21,Spavaća soba,12.28
+l5-stan-21,Garderoba,2.60
+l5-stan-21,Dječija soba,6.95
+l5-stan-21,Lođa,8.42
+l5-stan-27,Predulaz,2.02
+l5-stan-27,Degažman,5.53
+l5-stan-27,Kupatilo,4.75
+l5-stan-27,Kuhinja,3.89
+l5-stan-27,Boravak i trpezarija,21.16
+l5-stan-27,Spavaća soba,12.28
+l5-stan-27,Garderoba,2.60
+l5-stan-27,Dječija soba,6.95
+l5-stan-27,Lođa,8.42
+l5-stan-33,Predulaz,2.02
+l5-stan-33,Degažman,5.53
+l5-stan-33,Kupatilo,4.75
+l5-stan-33,Kuhinja,3.89
+l5-stan-33,Boravak i trpezarija,21.16
+l5-stan-33,Spavaća soba,12.28
+l5-stan-33,Garderoba,2.60
+l5-stan-33,Dječija soba,6.95
+l5-stan-33,Lođa,8.42
+l5-stan-04,Predulaz,2.95
+l5-stan-04,Kupatilo,4.37
+l5-stan-04,Kuhinja,4.44
+l5-stan-04,Boravak i trpezarija,19.60
+l5-stan-04,Spavaća soba,10.57
+l5-stan-04,Lođa,8.48
+l5-stan-10,Predulaz,2.95
+l5-stan-10,Kupatilo,4.37
+l5-stan-10,Kuhinja,4.44
+l5-stan-10,Boravak i trpezarija,19.60
+l5-stan-10,Spavaća soba,10.57
+l5-stan-10,Lođa,8.48
+l5-stan-16,Predulaz,2.95
+l5-stan-16,Kupatilo,4.37
+l5-stan-16,Kuhinja,4.44
+l5-stan-16,Boravak i trpezarija,19.60
+l5-stan-16,Spavaća soba,10.57
+l5-stan-16,Lođa,8.48
+l5-stan-22,Predulaz,2.95
+l5-stan-22,Kupatilo,4.37
+l5-stan-22,Kuhinja,4.44
+l5-stan-22,Boravak i trpezarija,19.60
+l5-stan-22,Spavaća soba,10.57
+l5-stan-22,Lođa,8.48
+l5-stan-28,Predulaz,2.95
+l5-stan-28,Kupatilo,4.37
+l5-stan-28,Kuhinja,4.44
+l5-stan-28,Boravak i trpezarija,19.60
+l5-stan-28,Spavaća soba,10.57
+l5-stan-28,Lođa,8.48
+l5-stan-34,Predulaz,2.95
+l5-stan-34,Kupatilo,4.37
+l5-stan-34,Kuhinja,4.44
+l5-stan-34,Boravak i trpezarija,19.60
+l5-stan-34,Spavaća soba,10.57
+l5-stan-34,Lođa,8.48
+l5-stan-05,Predulaz,3.01
+l5-stan-05,Kupatilo,3.47
+l5-stan-05,Kuhinja,3.76
+l5-stan-05,Boravak i trpezarija,13.21
+l5-stan-05,Degažman,2.76
+l5-stan-05,Dječija soba,8.14
+l5-stan-05,Spavaća soba,11.14
+l5-stan-05,Lođa,5.78
+l5-stan-11,Predulaz,3.01
+l5-stan-11,Kupatilo,3.47
+l5-stan-11,Kuhinja,3.76
+l5-stan-11,Boravak i trpezarija,13.21
+l5-stan-11,Degažman,2.76
+l5-stan-11,Dječija soba,8.14
+l5-stan-11,Spavaća soba,11.14
+l5-stan-11,Lođa,5.78
+l5-stan-17,Predulaz,3.01
+l5-stan-17,Kupatilo,3.47
+l5-stan-17,Kuhinja,3.76
+l5-stan-17,Boravak i trpezarija,13.21
+l5-stan-17,Degažman,2.76
+l5-stan-17,Dječija soba,8.14
+l5-stan-17,Spavaća soba,11.14
+l5-stan-17,Lođa,5.78
+l5-stan-23,Predulaz,3.01
+l5-stan-23,Kupatilo,3.47
+l5-stan-23,Kuhinja,3.76
+l5-stan-23,Boravak i trpezarija,13.21
+l5-stan-23,Degažman,2.76
+l5-stan-23,Dječija soba,8.14
+l5-stan-23,Spavaća soba,11.14
+l5-stan-23,Lođa,5.78
+l5-stan-29,Predulaz,3.01
+l5-stan-29,Kupatilo,3.47
+l5-stan-29,Kuhinja,3.76
+l5-stan-29,Boravak i trpezarija,13.21
+l5-stan-29,Degažman,2.76
+l5-stan-29,Dječija soba,8.14
+l5-stan-29,Spavaća soba,11.14
+l5-stan-29,Lođa,5.78
+l5-stan-06,Predulaz,7.87
+l5-stan-06,Kupatilo,3.76
+l5-stan-06,Kuhinja,4.23
+l5-stan-06,Boravak i trpezarija,26.14
+l5-stan-06,Dječija soba,9.57
+l5-stan-06,Spavaća soba,11.42
+l5-stan-06,Lođa,3.17
+l5-stan-12,Predulaz,7.87
+l5-stan-12,Kupatilo,3.76
+l5-stan-12,Kuhinja,4.23
+l5-stan-12,Boravak i trpezarija,26.14
+l5-stan-12,Dječija soba,9.57
+l5-stan-12,Spavaća soba,11.42
+l5-stan-12,Lođa,3.17
+l5-stan-18,Predulaz,7.87
+l5-stan-18,Kupatilo,3.76
+l5-stan-18,Kuhinja,4.23
+l5-stan-18,Boravak i trpezarija,26.14
+l5-stan-18,Dječija soba,9.57
+l5-stan-18,Spavaća soba,11.42
+l5-stan-18,Lođa,3.17
+l5-stan-24,Predulaz,7.87
+l5-stan-24,Kupatilo,3.76
+l5-stan-24,Kuhinja,4.23
+l5-stan-24,Boravak i trpezarija,26.14
+l5-stan-24,Dječija soba,9.57
+l5-stan-24,Spavaća soba,11.42
+l5-stan-24,Lođa,3.17
+l5-stan-30,Predulaz,7.87
+l5-stan-30,Kupatilo,3.76
+l5-stan-30,Kuhinja,4.23
+l5-stan-30,Boravak i trpezarija,26.14
+l5-stan-30,Dječija soba,9.57
+l5-stan-30,Spavaća soba,11.42
+l5-stan-30,Lođa,3.17
+l5-stan-35,Predulaz,3.01
+l5-stan-35,Kupatilo,3.47
+l5-stan-35,Kuhinja,3.76
+l5-stan-35,Boravak i trpezarija,13.21
+l5-stan-35,Spavaća soba,10.75
+l5-stan-35,Lođa,2.66
+l5-stan-36,Predulaz,5.48
+l5-stan-36,Kupatilo,3.76
+l5-stan-36,Kuhinja,4.23
+l5-stan-36,Boravak i trpezarija,26.14
+l5-stan-36,Dječija soba 1,9.57
+l5-stan-36,Dječija soba 2,10.26
+l5-stan-36,Spavaća soba,10.85
+l5-stan-36,Kupatilo 2,3.47
+l5-stan-36,Lođa 1,2.81
+l5-stan-36,Lođa 2,3.17

@@ -165,6 +165,23 @@ export default async function StanPage(
                 </div>
               </div>
 
+              {apt.positionImage && (
+                <div className="bg-white rounded-xl shadow-sm p-4 mt-6">
+                  <h3 className="text-lg font-bold text-gray-900 mb-4 px-2">
+                    Pozicija u zgradi
+                  </h3>
+                  <div className="relative w-full">
+                    <Image
+                      src={apt.positionImage}
+                      alt={`Pozicija stana ${apt.code} u zgradi`}
+                      width={1200}
+                      height={460}
+                      className="w-full h-auto rounded"
+                    />
+                  </div>
+                </div>
+              )}
+
               <div className="mt-4 text-center">
                 <Link
                   href={`/projekti/${project.slug}/${floor.slug}`}

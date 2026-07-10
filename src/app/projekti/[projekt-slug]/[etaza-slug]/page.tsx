@@ -3,7 +3,9 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import HeroHeader from '@/components/HeroHeader';
 import ApartmentTable from '@/components/ApartmentTable';
+import InteractiveFloorPlan, { type FloorPlanUnit } from '@/components/InteractiveFloorPlan';
 import { projects, getProjectBySlug, getFloorBySlug } from '@/data/projects';
+import { getFloorShapes } from '@/lib/loadFloorplans';
 
 export async function generateStaticParams() {
   const params = [];
@@ -44,6 +46,24 @@ export default async function EtazaPage(
   const floor = getFloorBySlug(project, fSlug);
   if (!floor) notFound();
 
+  // Interaktivni tlocrt — poligoni stanova (ako postoje za ovu etažu)
+  const units: FloorPlanUnit[] = getFloorShapes(project.slug, floor.slug)
+    .map((shape) => {
+      const apartment = floor.apartments.find((a) => a.slug === shape.apartmentSlug);
+      if (!apartment) return null;
+      return {
+        slug: apartment.slug,
+        code: apartment.code,
+        status: apartment.status,
+        href: `/projekti/${project.slug}/${floor.slug}/${apartment.slug}`,
+        points: shape.points,
+        labelX: shape.labelX,
+        labelY: shape.labelY,
+        areaLabel: apartment.totalNKP.toFixed(2),
+      };
+    })
+    .filter((u): u is FloorPlanUnit => u !== null);
+
   return (
     <>
       <HeroHeader
@@ -65,16 +85,32 @@ export default async function EtazaPage(
           <div className="section-underline" />
 
           <div className="mb-4 bg-white rounded-xl shadow-sm p-4 inline-block max-w-full">
-            <div className="relative w-full max-w-2xl mx-auto" style={{ minHeight: '200px' }}>
-              <Image
-                src={floor.floorPlanImage}
-                alt={`Tlocrt – ${floor.name}`}
-                width={800}
-                height={500}
-                className="w-full h-auto rounded"
-              />
+            <div
+              className={`relative w-full mx-auto ${units.length > 0 ? 'max-w-5xl' : 'max-w-2xl'}`}
+              style={{ minHeight: '200px' }}
+            >
+              {units.length > 0 ? (
+                <InteractiveFloorPlan
+                  imageSrc={floor.floorPlanImage}
+                  alt={`Tlocrt – ${floor.name}`}
+                  units={units}
+                />
+              ) : (
+                <Image
+                  src={floor.floorPlanImage}
+                  alt={`Tlocrt – ${floor.name}`}
+                  width={800}
+                  height={500}
+                  className="w-full h-auto rounded"
+                />
+              )}
             </div>
           </div>
+          {units.length > 0 && (
+            <p className="text-sm text-gray-600 mb-2">
+              Kliknite na stan na tlocrtu za detalje.
+            </p>
+          )}
 
           {/* Legenda */}
           <div className="flex flex-wrap gap-4 mb-8 mt-4">

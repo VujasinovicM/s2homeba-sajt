@@ -15,8 +15,18 @@ export interface Apartment {
   totalNP: number;
   totalNKP: number;
   floorPlanImage: string;
+  /** Pozicija stana u zgradi (tlocrt etaže sa osenčenim stanom); prazno ako ne postoji */
+  positionImage: string;
   pdfFile: string;
   roomDetails: RoomDetail[];
+}
+
+export interface FloorplanShape {
+  apartmentSlug: string;
+  /** SVG poligon u procentima slike tlocrta: "x1,y1 x2,y2 ..." */
+  points: string;
+  labelX: number;
+  labelY: number;
 }
 
 export interface Floor {

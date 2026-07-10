@@ -3,7 +3,9 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import HeroHeader from '@/components/HeroHeader';
+import InteractiveBuildingView, { type BuildingBand } from '@/components/InteractiveBuildingView';
 import { projects, getProjectBySlug, getFreeApartmentsCount } from '@/data/projects';
+import { getBuildingFloors } from '@/lib/loadFloorplans';
 import ProjectStickyNav from './ProjectStickyNav';
 
 export async function generateStaticParams() {
@@ -25,6 +27,23 @@ export default async function ProjektPage(props: PageProps<'/projekti/[projekt-s
   const { 'projekt-slug': slug } = await props.params;
   const project = getProjectBySlug(slug);
   if (!project) notFound();
+
+  // Interaktivna fasada — trake spratova (ako postoje za ovaj projekat)
+  const buildingBands: BuildingBand[] = getBuildingFloors(project.slug)
+    .map((band) => {
+      const floor = project.floors.find((f) => f.slug === band.floorSlug);
+      if (!floor) return null;
+      return {
+        slug: floor.slug,
+        name: floor.name,
+        href: `/projekti/${project.slug}/${floor.slug}`,
+        points: band.points,
+        labelX: band.labelX,
+        labelY: band.labelY,
+        freeCount: getFreeApartmentsCount(floor),
+      };
+    })
+    .filter((b): b is BuildingBand => b !== null);
 
   return (
     <>
@@ -69,6 +88,20 @@ export default async function ProjektPage(props: PageProps<'/projekti/[projekt-s
                 );
               })}
           </div>
+
+          {/* Interaktivna fasada — klik na sprat otvara etažu */}
+          {buildingBands.length > 0 && (
+            <div className="mt-10 bg-white rounded-xl shadow-sm p-4 max-w-4xl">
+              <h3 className="text-lg font-bold text-gray-900 mb-4 px-2">
+                Odaberite sprat na zgradi
+              </h3>
+              <InteractiveBuildingView
+                imageSrc={`/images/projekti/${project.slug}/fasada.jpg`}
+                alt={`Fasada – ${project.name}`}
+                bands={buildingBands}
+              />
+            </div>
+          )}
         </div>
       </section>
 

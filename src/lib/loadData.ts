@@ -9,17 +9,20 @@ function readCSV(filename: string): Record<string, string>[] {
   return parseCSV(content);
 }
 
-// Modul-level cache — čita se jednom pri buildu
+// Modul-level cache — čita se jednom pri buildu (u dev režimu uvijek svježe)
 let _cache: Project[] | null = null;
 
 export function loadProjects(): Project[] {
-  if (_cache) return _cache;
+  if (_cache && process.env.NODE_ENV === 'production') return _cache;
 
   const projectRows = readCSV('projects.csv');
   const floorRows = readCSV('floors.csv');
   const apartmentRows = readCSV('apartments.csv');
   const roomRows = readCSV('rooms.csv');
   const galleryRows = readCSV('gallery.csv');
+
+  // Projekti "u toku" prikazuju se prije završenih (unutar grupe redoslijed iz CSV-a)
+  const statusOrder: Record<string, number> = { 'u-toku': 0, 'završen': 1 };
 
   _cache = projectRows.map((p): Project => {
     const floors: Floor[] = floorRows
@@ -37,6 +40,7 @@ export function loadProjects(): Project[] {
             totalNP: parseFloat(a.totalNP),
             totalNKP: parseFloat(a.totalNKP),
             floorPlanImage: a.floorPlanImage,
+            positionImage: a.positionImage ?? '',
             pdfFile: a.pdfFile,
             roomDetails: roomRows
               .filter((r) => r.apartment_slug === a.slug)
@@ -67,6 +71,8 @@ export function loadProjects(): Project[] {
       floors,
     };
   });
+
+  _cache.sort((a, b) => (statusOrder[a.status] ?? 9) - (statusOrder[b.status] ?? 9));
 
   return _cache;
 }
