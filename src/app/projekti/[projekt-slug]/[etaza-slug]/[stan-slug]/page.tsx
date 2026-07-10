@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import HeroHeader from '@/components/HeroHeader';
 import StatusBadge from '@/components/StatusBadge';
+import { siteInfo } from '@/data/site';
 import {
   projects,
   getProjectBySlug,
@@ -138,7 +139,11 @@ export default async function StanPage(
                   )}
                   {apt.status === 'slobodno' && (
                     <a
-                      href={`mailto:info@s2home.ba?subject=Upit za stan ${apt.code} – ${project.name}`}
+                      href={`mailto:${siteInfo.email}?subject=${encodeURIComponent(
+                        `Upit za stan ${apt.code} – ${project.name}`
+                      )}&body=${encodeURIComponent(
+                        `Poštovani,\n\nzainteresovan/a sam za stan ${apt.code} – ${project.name} (${floor.name}). Molim vas za više informacija.\n\n`
+                      )}`}
                       className="btn-outline"
                     >
                       Pošaljite upit

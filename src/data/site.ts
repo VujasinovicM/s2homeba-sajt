@@ -7,12 +7,12 @@ export const siteInfo: SiteInfo = {
   jib: '4405469520000',
   mbs: '57-01-0400-25',
   phone: '066 992 999',
-  email: 'info@s2home.ba',
+  email: 'office@s2home.ba',
   offices: [
     {
       name: 'Centralna kancelarija – Banja Luka',
       address: 'Ulica Akademika Jovana Surutke broj 9, 78000, Banja Luka',
-      email: 'info@s2home.ba',
+      email: 'office@s2home.ba',
       phone: '066 992 999',
       workingHours: 'Pon – Pet: 08:00 – 16:00',
       mapEmbedUrl:

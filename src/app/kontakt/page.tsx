@@ -98,11 +98,30 @@ export default function KontaktPage() {
               ))}
             </div>
 
-            {/* Desno: forma za upit */}
+            {/* Desno: direktan kontakt */}
             <div className="lg:w-[480px] shrink-0">
               <div className="bg-white rounded-xl shadow-sm p-6 sticky top-6">
                 <h2 className="text-xl font-bold text-gray-900 mb-4">Pošaljite nam poruku</h2>
-                <ContactForm />
+
+                <div className="space-y-3">
+                  <a
+                    href={`mailto:${siteInfo.email}?subject=${encodeURIComponent('Upit sa sajta s2home.ba')}`}
+                    className="btn-primary w-full text-center"
+                  >
+                    ✉ &nbsp;Pošaljite e-mail
+                  </a>
+
+                  <a
+                    href={`tel:${siteInfo.phone.replace(/\s/g, '')}`}
+                    className="btn-outline w-full text-center"
+                  >
+                    ✆ &nbsp;Pozovite {siteInfo.phone}
+                  </a>
+                </div>
+
+                <p className="text-xs text-gray-400 mt-4 text-center">
+                  {siteInfo.email} · {siteInfo.offices[0].workingHours}
+                </p>
               </div>
             </div>
           </div>
@@ -111,5 +130,3 @@ export default function KontaktPage() {
     </>
   );
 }
-
-import ContactForm from './ContactForm';

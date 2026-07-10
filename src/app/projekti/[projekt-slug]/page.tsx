@@ -5,6 +5,7 @@ import Link from 'next/link';
 import HeroHeader from '@/components/HeroHeader';
 import InteractiveBuildingView, { type BuildingBand } from '@/components/InteractiveBuildingView';
 import { projects, getProjectBySlug, getFreeApartmentsCount } from '@/data/projects';
+import { siteInfo } from '@/data/site';
 import { getBuildingFloors } from '@/lib/loadFloorplans';
 import ProjectStickyNav from './ProjectStickyNav';
 
@@ -157,7 +158,11 @@ export default async function ProjektPage(props: PageProps<'/projekti/[projekt-s
                 Kontaktirajte nas
               </Link>
               <a
-                href={`mailto:info@s2home.ba?subject=Upit za projekt: ${project.name}`}
+                href={`mailto:${siteInfo.email}?subject=${encodeURIComponent(
+                  `Upit za projekat ${project.name}`
+                )}&body=${encodeURIComponent(
+                  `Poštovani,\n\nzainteresovan/a sam za projekat ${project.name}. Molim vas za više informacija.\n\n`
+                )}`}
                 className="btn-outline"
               >
                 Pošaljite upit

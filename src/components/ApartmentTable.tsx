@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Apartment, Floor, Project } from '@/data/types';
+import { siteInfo } from '@/data/site';
 import StatusBadge from './StatusBadge';
 
 interface ApartmentTableProps {
@@ -97,10 +98,14 @@ export default function ApartmentTable({
                   <td>
                     {apt.status === 'slobodno' && (
                       <a
-                        href={`mailto:info@s2home.ba?subject=Upit za stan ${apt.code} – ${project.name}`}
+                        href={`mailto:${siteInfo.email}?subject=${encodeURIComponent(
+                          `Upit za stan ${apt.code} – ${project.name}`
+                        )}&body=${encodeURIComponent(
+                          `Poštovani,\n\nzainteresovan/a sam za stan ${apt.code} – ${project.name}. Molim vas za više informacija.\n\n`
+                        )}`}
                         className="btn-outline text-xs py-1.5 px-3 whitespace-nowrap"
                       >
-                        E-mail
+                        Upit
                       </a>
                     )}
                   </td>
