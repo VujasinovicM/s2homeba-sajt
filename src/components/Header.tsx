@@ -11,7 +11,6 @@ const navLinks = [
   { href: '/slobodni-stanovi', label: 'SLOBODNI STANOVI' },
   { href: '/reference', label: 'REFERENCE' },
   { href: '/o-nama', label: 'O NAMA' },
-  { href: '/oprema', label: 'OPREMA' },
   { href: '/kontakt', label: 'KONTAKT' },
 ];
 

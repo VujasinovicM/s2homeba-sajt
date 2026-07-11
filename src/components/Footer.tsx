@@ -78,7 +78,6 @@ export default function Footer({ siteInfo }: { siteInfo: SiteInfo }) {
                   { href: '/slobodni-stanovi', label: 'Slobodni stanovi' },
                   { href: '/reference', label: 'Reference' },
                   { href: '/o-nama', label: 'O nama' },
-                  { href: '/oprema', label: 'Oprema' },
                   { href: '/kontakt', label: 'Kontakt' },
                 ].map((link) => (
                   <li key={link.href}>

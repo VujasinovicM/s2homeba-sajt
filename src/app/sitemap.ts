@@ -12,7 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/slobodni-stanovi`, lastModified: new Date(), changeFrequency: 'daily',   priority: 0.9 },
     { url: `${BASE}/reference`,        lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/o-nama`,           lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE}/oprema`,           lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/kontakt`,          lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
   ];
 
