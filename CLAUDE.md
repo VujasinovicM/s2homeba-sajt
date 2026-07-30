@@ -56,6 +56,7 @@ Nema `tailwind.config.js`. Custom vrijednosti se definišu u `src/app/globals.cs
 | `data/apartments.csv` | **Stanovi** — ovo se najčešće uređuje | project_slug, floor_slug, slug, code, rooms, type, **status**, totalNP, totalNKP, floorPlanImage, pdfFile |
 | `data/rooms.csv` | Prostorije po stanu s površinama | apartment_slug, name, area |
 | `data/gallery.csv` | Galerija fotografija po projektu | project_slug, imagePath |
+| `data/timeline.csv` | **Opcioni** naslovi i opisi mjeseci na /tok-gradnje | folder, title, description |
 
 ### Kako sistem radi
 
@@ -123,6 +124,9 @@ public/
         stanovi/
           {stan-slug}/
             tlocrt.jpg                ← Arhitektonski tlocrt stana
+    timeline/
+      {mjesec}_{godina}/            ← Tok gradnje — npr. jun_2026, jul_2026
+        1.jpg, 2.jpg, 3.jpg...      ← Slike se čitaju automatski, ne navode se nigdje
   pdfs/
     {stan-slug}.pdf       ← PDF tlocrt za preuzimanje (putanja u apartments.csv → pdfFile)
 ```
@@ -136,6 +140,7 @@ public/
 | Galerija projekta | 1200×800 px | do 300 KB |
 | Tlocrt etaže | 1600×1000 px | do 300 KB |
 | Tlocrt stana | 1200×900 px | do 200 KB |
+| Tok gradnje | 1600×1200 px | do 400 KB |
 
 > Kompresuj slike na [squoosh.app](https://squoosh.app) prije dodavanja.
 
@@ -215,6 +220,33 @@ Efekti:
 
 ---
 
+### Dodavanje novog mjeseca na /tok-gradnje  (mjesečna operacija)
+
+**Nema izmjena u kodu ni u CSV-u.** Dovoljan je novi folder:
+
+1. Napravi folder `public/images/timeline/{mjesec}_{godina}` — npr. `jul_2026`
+2. Ubaci slike i imenuj ih brojevima: `1.jpg`, `2.jpg`, `3.jpg`… (redoslijed prikaza)
+3. `npm run build`
+
+Stranica automatski dobija novu sekciju i novu tačku na tajmlajnu, **najnoviji mjesec ide na vrh**.
+
+Prihvaćeni formati imena foldera: `jul_2026`, `jul-2026`, `07_2026`, `2026-07`.
+Naziv mjeseca piši bez dijakritike i malim slovima; prikazuje se s velikim početnim
+slovom (`jul_2026` → „Jul 2026"). Prazan folder se ignoriše — ne pravi praznu sekciju.
+
+**Opcioni naslov i opis** — samo ako mjesec treba komentar, dodaj red u `data/timeline.csv`:
+
+```csv
+folder,title,description
+jul_2026,,"Završena fasada, počela ugradnja stolarije."
+jun_2026,"Jun 2026 — temelji",""
+```
+
+Prazan `title` znači da se koristi automatski naziv („Jul 2026"). Mjeseci koji nisu
+navedeni u CSV-u rade normalno — CSV je čisto dodatak.
+
+---
+
 ### Dodavanje slike u galeriju
 
 1. Dodaj fajl u `public/images/projekti/{slug}/gallery/`
@@ -277,6 +309,7 @@ Otvori `src/data/site.ts`. Promijeni telefon, email, adresu ili radno vrijeme.
 | `/projekti/{slug}/{etaza}/` | `src/app/projekti/[projekt-slug]/[etaza-slug]/page.tsx` |
 | `/projekti/{slug}/{etaza}/{stan}/` | `src/app/projekti/[projekt-slug]/[etaza-slug]/[stan-slug]/page.tsx` |
 | `/slobodni-stanovi/` | `src/app/slobodni-stanovi/page.tsx` |
+| `/tok-gradnje/` | `src/app/tok-gradnje/page.tsx` |
 | `/reference/` | `src/app/reference/page.tsx` |
 | `/o-nama/` | `src/app/o-nama/page.tsx` |
 | `/oprema/` | `src/app/oprema/page.tsx` |
@@ -294,6 +327,7 @@ src/components/
   ProjectCard.tsx      ← Kartica projekta (slika + naziv + opis + gumb)
   ApartmentTable.tsx   ← Tablica stanova s dropdown filterima (client)
   StatusBadge.tsx      ← Zeleni/žuti/crveni bedž za status
+  Lightbox.tsx         ← Fullscreen pregled slika sa strelicama/swipe/Esc (client)
 
 src/app/
   ProjectsTabFilter.tsx                     ← Tab "U tijeku/Završeni" (client)
@@ -303,10 +337,13 @@ src/app/
     SlobodniStanoviClient.tsx               ← Accordion po etažama (client)
   kontakt/
     ContactForm.tsx                         ← Forma s mailto fallback (client)
+  tok-gradnje/
+    TokGradnjeClient.tsx                    ← Tajmlajn sa strane + grid + lightbox (client)
 
 src/lib/
   csvParser.ts    ← RFC 4180 CSV parser (handla višelinijski tekst, zareze u tekstu)
   loadData.ts     ← Čita 5 CSV-a, sklapa Project[] strukturu, cache u memoriji
+  loadTimeline.ts ← Skenira public/images/timeline/ foldere → mjeseci toka gradnje
 
 src/data/
   types.ts        ← TypeScript interfejsi (Project, Floor, Apartment, ...)
@@ -317,7 +354,7 @@ src/data/
 ### Server vs Client komponente
 
 **Server** (mogu koristiti `fs`, čitaju CSV): sve `page.tsx` fajlove
-**Client** (`'use client'`): Header, HeroSlider, ApartmentTable, ProjectsTabFilter, SlobodniStanoviClient, ProjectStickyNav, ContactForm
+**Client** (`'use client'`): Header, HeroSlider, ApartmentTable, ProjectsTabFilter, SlobodniStanoviClient, ProjectStickyNav, ContactForm, TokGradnjeClient, Lightbox
 
 Client komponente **ne smiju** importovati direktno iz `src/data/projects.ts` (jer `loadData.ts` koristi `fs` koji ne postoji na klijentu). Podaci se prosljeđuju kao props od server komponente.
 
@@ -373,3 +410,5 @@ Client komponente **ne smiju** importovati direktno iz `src/data/projects.ts` (j
 | CSV greška — tekst s zarezom razbija kolone | Zatvori polje u dvostruke navodnike: `"Tekst, s zarezom"` |
 | TypeScript greška u dinamičnoj stranici | Uvijek `await props.params` i koristi `PageProps<'/ruta/[param]'>` |
 | `fs` greška u klijentskoj komponenti | Client komponente ne smiju importovati `projects.ts` — podaci idu kao props |
+| Novi mjesec toka gradnje se ne pojavljuje | Folder mora sadržati barem jednu sliku (.jpg/.png/.webp) i treba `npm run build` |
+| Mjeseci u pogrešnom redoslijedu | Ime foldera nije prepoznato — koristi `jul_2026` ili `2026-07`, bez dijakritike |

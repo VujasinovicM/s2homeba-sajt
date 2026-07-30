@@ -9,6 +9,7 @@ import { SiteInfo } from '@/data/types';
 const navLinks = [
   { href: '/projekti', label: 'PROJEKTI' },
   { href: '/slobodni-stanovi', label: 'SLOBODNI STANOVI' },
+  { href: '/tok-gradnje', label: 'TOK GRADNJE' },
   { href: '/reference', label: 'REFERENCE' },
   { href: '/o-nama', label: 'O NAMA' },
   { href: '/kontakt', label: 'KONTAKT' },
@@ -52,7 +53,7 @@ export default function Header({ siteInfo }: { siteInfo: SiteInfo }) {
           </Link>
 
           {/* Desktop navigacija */}
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-4 lg:gap-6">
             {navLinks.map((link) => (
               <Link
                 key={link.href}

@@ -7,6 +7,7 @@ import InteractiveBuildingView, { type BuildingBand } from '@/components/Interac
 import { projects, getProjectBySlug, getFreeApartmentsCount } from '@/data/projects';
 import { siteInfo } from '@/data/site';
 import { getBuildingFloors } from '@/lib/loadFloorplans';
+import { getTimelineMonths } from '@/lib/loadTimeline';
 import ProjectStickyNav from './ProjectStickyNav';
 
 export async function generateStaticParams() {
@@ -46,6 +47,9 @@ export default async function ProjektPage(props: PageProps<'/projekti/[projekt-s
     })
     .filter((b): b is BuildingBand => b !== null);
 
+  // Tok gradnje se nudi samo na projektima koji su još u izgradnji
+  const latestTimelineMonth = project.status === 'u-toku' ? getTimelineMonths()[0] : undefined;
+
   return (
     <>
       <HeroHeader
@@ -60,7 +64,7 @@ export default async function ProjektPage(props: PageProps<'/projekti/[projekt-s
       />
 
       {/* Sticky navigacija */}
-      <ProjectStickyNav />
+      <ProjectStickyNav showTokGradnje={latestTimelineMonth !== undefined} />
 
       {/* 1. Prikaz stanova */}
       <section id="stanovi" className="py-12">
@@ -130,6 +134,42 @@ export default async function ProjektPage(props: PageProps<'/projekti/[projekt-s
           )}
         </div>
       </section>
+
+      {/* 2b. Tok gradnje — banner na najnoviji mjesec */}
+      {latestTimelineMonth && (
+        <section className="py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Link
+              href="/tok-gradnje"
+              className="flex flex-col sm:flex-row bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow group"
+            >
+              <div className="relative w-full sm:w-72 h-48 sm:h-auto flex-shrink-0">
+                <Image
+                  src={latestTimelineMonth.images[0]}
+                  alt={`Tok gradnje – ${latestTimelineMonth.label}`}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 640px) 100vw, 288px"
+                />
+              </div>
+              <div className="p-6 flex-1 flex flex-col justify-center">
+                <span className="text-xs font-bold uppercase tracking-wider text-[#36A8EF]">
+                  Najnovije s gradilišta
+                </span>
+                <h2 className="text-xl font-bold text-gray-900 mt-1.5">
+                  Tok gradnje — {latestTimelineMonth.label}
+                </h2>
+                <p className="text-gray-600 text-sm leading-relaxed mt-2">
+                  Fotografije napretka na gradilištu.
+                </p>
+                <span className="mt-4 text-sm font-semibold text-[#36A8EF] group-hover:underline">
+                  Pogledajte tok gradnje →
+                </span>
+              </div>
+            </Link>
+          </div>
+        </section>
+      )}
 
       {/* 3. Tehnički opis */}
       <section id="tehnicki-opis" className="py-12">

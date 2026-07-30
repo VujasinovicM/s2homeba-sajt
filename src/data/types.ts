@@ -50,6 +50,22 @@ export interface Project {
   floors: Floor[];
 }
 
+/** Jedan mjesec toka gradnje — jedan folder u public/images/timeline/ */
+export interface TimelineMonth {
+  /** Ime foldera, npr. "jun_2026" */
+  folder: string;
+  /** Anchor id za tajmlajn navigaciju, npr. "jun-2026" */
+  id: string;
+  /** Prikazna oznaka izvedena iz imena foldera, npr. "Jun 2026" */
+  label: string;
+  /** Naslov iz data/timeline.csv; pada na `label` ako nije zadan */
+  title: string;
+  /** Opis iz data/timeline.csv; prazno ako nije zadan */
+  description: string;
+  /** Putanje slika, sortirane numerički (1, 2, 10 — ne 1, 10, 2) */
+  images: string[];
+}
+
 export interface Office {
   name: string;
   address: string;
